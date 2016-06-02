@@ -1,0 +1,29 @@
+{
+  "name": "qiot-id-gen",
+  "version": "0.0.3",
+  "description": "Generates random ids with a prefix (a la Stripe)",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --reporter list"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andrewwolverton/qiot-id-gen.git"
+  },
+  "keywords": [
+    "ids"
+  ],
+  "author": "awolverton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrewwolverton/qiot-id-gen/issues"
+  },
+  "homepage": "https://github.com/andrewwolverton/qiot-id-gen",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0"
+  },
+  "dependencies": {
+    "random-js": "^1.0.8"
+  }
+}
